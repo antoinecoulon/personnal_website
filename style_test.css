@@ -1,0 +1,99 @@
+/*
+css de Scotty Dev & Design Project
+------
+Antoine COULON
+*/
+
+* /* balise universelle */
+{
+    font-family: verdana, arial, serif;
+}
+
+body{
+    background-color: rgb(227,207,194);
+}
+
+#logo
+{
+    /* Test des 'id' */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Scotty
+{
+    /* Test de la balise html 'span' */
+    color: #000000;
+    font-size: 1.6em;
+}
+
+.welcome
+{
+    /* Test des 'class' */
+    color: #653434;
+}
+
+a{
+    color: #653434;
+}
+
+h1{
+    text-align: center;
+    color: #653434;
+}
+
+h2
+{
+    color: #653434;
+    font-size: 1.3em;
+    text-align: center;
+}
+h3{
+    font-size: 1em;
+    color: #653434;
+}
+p
+{
+    font-size: 1em;
+    text-align: justify;
+    color: #653434;
+}
+
+.imageFlottante{
+    width: 60px;
+    height: 60px;
+    float: right;
+}
+.texteEnDessous{
+    clear: both;
+}
+
+#block1
+{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    float: left;
+    top: 50px;
+    border: 3px solid #653434;
+}
+#block2
+{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    float: left;
+    top: 50px;
+    
+
+    border: 3px solid #653434;
+}
+div.basPage
+{
+    clear: both;
+    width: 60%;
+    
+    margin-left: auto;
+    margin-right: auto;
+}

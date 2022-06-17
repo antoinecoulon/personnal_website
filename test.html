@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<!-- Site test , suivi formation Open Classroom HTML CSS - 30/04/2022 -->
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="style_test.css" />
+        <title>Scotty Dev & Design Project</title>
+    </head>
+
+    <body>
+
+        <img src="images/logo.png" alt="Logo du site" id="logo" />
+
+        <h1 id="titre"><span class="Scotty">Scotty</span> Dev & Design Project</h1>
+
+        <div id="block1">
+            <h2 class="welcome">Welcome !</h2>
+
+            <p><img src="images/imageFlottante.gif" class="imageFlottante" alt="Image flottante" /> Bienvenue sur mon premier site web ! <br />
+            Je m'appelle Antoine COULON, j'ai 28 ans et je cherche à devenir développeur web. Je suis papa d'une petite fille magnifique qui est encore toute jeune. Je m'étale pas sur mes projets professionnels tout de suite. Je construis ce site en suivant un cours Openclassrooms sur le HTML et le CSS, je débute... Soyez indulgents, n'hésitez pas à me laisser un message (quand une page de contact sera en place...) !</p>
+            <p class="texteEnDessous">Celui-ci est <em>un site test, d'entrainement</em>.</p>
+        </div>
+
+        <div id="block2">
+            <h2>Un projet personnel et professionnel</h2>
+
+            <p>Ce site représente pour moi une partie de <strong>mon projet professionnel</strong>: devenir <mark>Développeur Web</mark>, acquérir une solide connaissance des langages informatiques dans un premier temps, et à long terme y ajouter mes connaissances actuelles et futures ainsi que ma passion pour le webdesign.</p>
+        </div>
+
+        <div class="basPage">
+            <h2>Je continue le cours...</h2>
+
+            <p>Quel cours? Je suis un cours sur le site <a href="https://openclassrooms.com"> OpenClassrooms</a>, check !</p>
+
+            <h3>Les listes</h3>
+
+            <p>Ci-dessous une liste non ordonnée:</p>
+                <ul>
+                    <li>Quelque chose</li>
+                    <li>Autre chose</li>
+                    <li>Encore autre chose</li>
+                    <li>etc...</li>
+                </ul>
+            <p>Et cette fois, une liste ordonnée:</p>
+                <ol>
+                    <li>Une 1ère chose</li>
+                    <li>Une 2ème chose</li>
+                    <li>Une 3ème chose</li>
+                    <li>etc...</li>
+                </ol>
+            <p>On teste les listes de définition:</p>
+                <dl>Liste de termes<!-- délimiter la liste -->
+                    <dt><strong>Terme 1</strong><!-- délimiter un terme -->
+                        <dd><em>Définition du terme 1</em></dd><!-- délimiter la déf de ce terme -->
+                    </dt>
+                    <dt><strong>Terme 2</strong>
+                        <dd><em>Définition du terme 2</em></dd>
+                    </dt>
+                </dl>
+
+            <h3>Les liens</h3>
+        
+            <p>Aujourd'hui, chapitre sur les liens. J'ai déjà créé un lien dit <em>absolu</em> vers le site Openclassrooms plus haut, maintenant, je vais créer un lien dit <em>relatif</em>, imaginons que cela sera plus tard un lien vers mon portfolio...<br />
+            <a href="test2.html" title="Waaaaaaa...!">Portfolio</a><br />
+            Puis si tu ne te souviens plus du début de ma page, <a href="#titre">reviens-y!</a></p>
+
+            <p>Je pourrais plus tard créer une page de contact, pour l'instant, je me contenterai de te laisser <a href="mailto:a.antoinecoulon@gmail.com">m'envoyer un mail</a>.</p>
+
+            <h3>Les images</h3>
+
+            <p>
+                Voici une image de perroquet, bien que je ne les apprécie pas particulièrement. (Compressée en JPEG)<br />
+                <a href="images/parrot.jpg"><img src="images/parrot_mini.jpg" alt="a parrot" /></a>
+            </p>
+            <p>
+                Pour illustrer la création de figures, voici une capture d'écran de mon éditeur de texte:   <br />
+                <figure>
+                    <img src="images/capture1.jpg" alt="Capture d'écran 1" />
+                    <figcaption>L'éditeur de texte Sublime Text</figcaption>
+                </figure>
+            </p>
+        </div>
+
+    </body>
+</html>
